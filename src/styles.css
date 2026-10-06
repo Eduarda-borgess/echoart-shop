@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+/* aqui ficam as variáveis globais pra reutilizarmos durante o código */
+
+:root {
+    /* --fundo-um: #B90E16; */
+    --fundo-um: #970C13;
+}

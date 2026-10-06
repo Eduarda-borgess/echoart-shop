@@ -1,6 +1,6 @@
 .menu {
     background-color: var(--fundo-um);
-    color: #f0f0f0;
+    color: var(--cor-letra);
     font-size: 1rem;
     font-family: Helvetica, sans-serif;
 }
@@ -27,7 +27,7 @@
     align-items: center;
     text-decoration: none;
     align-items: center;
-    color: #f0f0f0;
+    color: inherit;
 }
 
 a {

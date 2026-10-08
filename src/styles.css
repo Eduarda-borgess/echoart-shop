@@ -1,7 +1,26 @@
 /* aqui ficam as variáveis globais pra reutilizarmos durante o código */
+@import url('https://googleapis.com');
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
 
 :root {
     /* --fundo-um: #B90E16; */
     --fundo-um: #970C13;
-    --cor-letra: #f0f0f0;
+    --fundo-dois: #DDD;
+    --fundo-tres: #EEE;
+    --cor-letra-clara: #f0f0f0;
+    --cor-letra-escura: #222;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: var(--fundo-tres);
 }

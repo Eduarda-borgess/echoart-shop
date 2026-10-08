@@ -12,7 +12,7 @@
     justify-content: space-between;
     padding: 1rem;
     box-sizing: border-box;
-    gap: 1rem
+    gap: 1rem;
 }
 
 .header-container a {
@@ -21,6 +21,7 @@
 }
 
 .header-esquerda {
+    padding: 0 1rem;
     flex: 1;
     justify-content: flex-start;
 }
@@ -32,6 +33,7 @@
 }
 
 .header-centro form {
+    gap: 1rem;
     display: flex;
     width: 100%;
     min-width: 100px;
@@ -39,18 +41,34 @@
 }
 
 .header-centro input[name="search"] {
+    border: none;
     padding: 10px;
     flex: 1;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
+.header-centro input[name="search"]:focus-visible {
+    outline: 2px solid var(--fundo-tres);
+}
 
 .header-direita {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 1rem;
+    padding: 0 1rem;
+    gap: 2rem;
+}
+
+.botao-pesquisa {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.icone {
+    width: 2rem;
+    justify-content: center;
 }
 
 .logo-svg {

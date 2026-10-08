@@ -52,14 +52,17 @@ form input {
     margin: 0 auto;
     background-color: var(--fundo-um);
     color: var(--cor-letra-clara);
-    padding: 8px;
+    padding: 10px;
     border-radius: 20px;
     border: none;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 1.1rem;
 }
 
 .botao-login:hover {
     cursor:pointer;
-    font-weight: 500;
+    font-weight: 600;
     background-color: color-mix(in srgb, var(--fundo-um) 90%, black);
 
 }
@@ -73,4 +76,10 @@ form input {
 .botao-recuperar-senha:hover{
     cursor:pointer;
     font-weight: 600;
+}
+
+.icone {
+    width: 1.8rem;
+    justify-content: center;
+    padding-right: .5rem;
 }

@@ -1,6 +1,4 @@
 /* aqui ficam as variáveis globais pra reutilizarmos durante o código */
-@import url('https://googleapis.com');
-
 body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
@@ -8,9 +6,10 @@ body {
 
 :root {
     /* --fundo-um: #B90E16; */
-    --fundo-um: #970C13;
+    --fundo-um: #650011;
     --fundo-dois: #DDD;
     --fundo-tres: #EEE;
+    --fundo-quatro: #850016;
     --cor-letra-clara: #f0f0f0;
     --cor-letra-escura: #222;
 }

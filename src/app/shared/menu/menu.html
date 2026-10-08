@@ -2,37 +2,15 @@
 <nav class="menu">
     <div class="menu-container">
         <ul class="menu-lista">
-            <!-- adicionar icones -->
+
+            @for(item of itensMenu; track item) {
             <li>
-                <a href="#catalogo">
-                    <img class="icone" src="/assets/icons/violao.svg" alt="">
-                    Cordas
+                <a href="item.link">
+                    <img class="icone" src="/assets/icons/{{item.icon}}.svg" alt="">
+                    {{item.label}}
                 </a>
             </li>
-            <li>
-                <a href="#catalogo">
-                    <img class="icone" src="/assets/icons/baqueta.svg" alt="">
-                    Bateria e Percussão
-                </a>
-            </li>
-            <li>
-                <a href="#catalogo">
-                    <img class="icone" src="/assets/icons/piano.svg" alt="">
-                    Teclas
-                </a>
-            </li>
-            <li>
-                <a href="#catalogo">
-                    <img class="icone" src="/assets/icons/flauta.svg" alt="">
-                    Sopro
-                </a>
-            </li>
-            <li>
-                <a href="#catalogo">
-                    <img class="icone" src="/assets/icons/headphone.svg" alt="">
-                    Áudio
-                </a>
-            </li>
+            }
         </ul>
     </div>
 </nav>

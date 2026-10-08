@@ -6,7 +6,7 @@ import { Footer } from './shared/footer/footer';
 import { Login } from './pages/login/login';
 
 @Component({
-  imports: [RouterOutlet, Header, Menu, Footer, Login],
+  imports: [RouterOutlet, Header, Menu, Footer],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
